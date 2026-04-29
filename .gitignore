@@ -1,0 +1,4 @@
+src/bin/
+src/obj/
+payload/BepInEx/cache/
+payload/BepInEx/LogOutput.log

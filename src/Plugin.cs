@@ -26,9 +26,9 @@ namespace NoNegativeInterest
 
         // RVAs of BankHelper method bodies in GameAssembly.dll, confirmed via static PE analysis.
         // If the game updates and these shift, the expected-bytes check below will catch it.
-        private const long RVA_RunHourly                           = 0xBA21A0;
-        private const long RVA_ShouldPerformNegativeInterestCharge = 0xBA2460;
-        private const long RVA_PerformNegativeInterestCharge       = 0xBA2560;
+        private const long RVA_RunHourly                           = 0xBA2EC0;
+        private const long RVA_ShouldPerformNegativeInterestCharge = 0xBA3180;
+        private const long RVA_PerformNegativeInterestCharge       = 0xBA3280;
 
         // First 4 bytes we expect at each site (IL2CPP sub rsp prologue).
         // If the game updates and these change, we refuse to patch rather than corrupting unknown code.
